@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html{
+            direction: rtl;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .blog{
+            width: 300px;
+            display: flex;
+            padding: 10px;
+            border: 1px solid red;
+        }
+        .blog-img-container{
+            width: 70px;
+            height: 70px;
+            border-radius: 20px;
+        }
+        .blog-img{
+            display: block;
+            width: 100%;
+            border: 1px solid blue;
+            overflow: hidden;
+            border-radius: 20px;
+
+        }
+        .blog-discription{
+            width: calc(100% - 70px);
+            padding-right: 10px;
+            padding-top: 10px;
+        }
+        .blog-discription-tittle{
+            font-size: 18px;
+            font-family: vazirmatn;
+        }
+        .blog-date{
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .box{
+            position: relative;
+        }
+        .box-text{
+            border: 1px solid red;
+            width: 50%;
+            height: 80px;
+            padding: 10px 20px;
+            margin-right: 50px;
+        
+        }
+        .box-text-detail{
+            border: 1px solid gray;
+            border-radius: 7px;
+            width: 350px;
+            height: 50px; 
+            padding: 10px 20px;
+            position: relative;
+            top: 5px;
+            right: 160px;
+            text-align: center;
+            font-size: x-large;
+            color: white;
+            background-color: blue;
+            transition: 0.5s;
+        }
+        .box-text-detail:hover{
+            background-color: rgb(9, 136, 240);
+        }
+        .logo{
+            border: 1px solid red;
+            width: 50%;
+            height: 90px;
+            padding-right:10px;
+            margin-left: 10px;
+            position: relative;
+            right: 20px;
+            bottom: 15px;
+     
+
+        }
+        .logo-btn{
+            font-size: 40px;
+            padding: 20px 20px;
+            margin-right: 50px;
+            border-radius: 10px;
+            transition: 0.5s;
+            align-items: center;
+           
+            
+           
+        }
+        .logo-btn:hover{
+            color: red;
+            background-color: deeppink;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="blog">
+        <div class="blog-img-container">
+            <img class="blog-img" src="/img/ice.jpg" alt="ice">
+        </div>
+        <div class="blog-description">
+            <h3 class="blog-description-tittle">
+                نکته‌ای درمورد بازی Assassin's Creed Shadows باید بدانید
+            </h3>
+            <div class="blog-date">30اردیبهشت</div>
+            <div class="blog-name">مهناز بلاغی</div>
+        </div>
+         <div class="blog-img-container-02-footer">
+        <img src="/img/Profile.jpg" alt="prof" class="blog-img-02">
+    </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="box">
+        <div class="box-text">
+            <h4 class="box-text-detail">
+                مشاهده عناوین بیشتر
+            </h4>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="logo">
+        <a class="insta" href="#"><i class="fa fa-instagram logo-btn" aria-hidden="true"></i></a>
+        <a class="twitter" href="#"><i class="fa fa-twitter logo-btn" aria-hidden="true"></i></a>
+        <a class="abarat" href="#"><i class="fa fa-video-camera logo-btn" aria-hidden="true"></i></a>
+    </div>
+   
+</body>
+</html>
